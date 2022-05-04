@@ -7,7 +7,12 @@
     padding-bottom: 16px;
     font-family: $principal;
     font-weight: 10px;
-    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em /*para que resalte a pesar del fondo clarito*/
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em; /*para que resalte a pesar del fondo clarito*/
+    a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    }
 }
 
 .header {
