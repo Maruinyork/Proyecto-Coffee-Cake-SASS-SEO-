@@ -982,7 +982,7 @@ header {
 .our-team__txt {
   padding: 10px;
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .column-drop-css {
@@ -1051,6 +1051,10 @@ header {
     width: 200px;
     height: 200px;
   }
+
+  .our-team__txt {
+    font-size: 1.1em;
+  }
 }
 @media screen and (min-width: 1024px) {
   .about-h2 {
@@ -1076,6 +1080,11 @@ header {
 
   .our-team__txt {
     font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-team__txt {
+    font-size: 1.8em;
   }
 }
 @media screen and (min-width: 1440px) {
