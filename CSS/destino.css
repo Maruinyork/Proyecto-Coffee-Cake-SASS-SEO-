@@ -1085,7 +1085,12 @@ header {
   }
 
   .our-team__txt {
-    font-size: 1.3em;
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .our-team__txt {
+    font-size: 1.5em;
   }
 }
 /*-------------------Galeria------------------*/
