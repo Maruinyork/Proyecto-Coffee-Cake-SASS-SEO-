@@ -969,14 +969,14 @@ header {
   border-radius: 15px;
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
   position: sticky;
   box-shadow: 5px 5px 5px #D2B48C;
 }
 .card:hover {
-  transform: scale(2);
+  transform: scale(1.05);
   transition: all 1s ease;
 }
 .card-image {
