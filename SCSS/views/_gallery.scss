@@ -16,6 +16,29 @@
     }
 }
 
+figure{
+    position: relative
+}
+
+figure:hover figcaption{
+    display: block;   
+}
+
+figcaption {
+    display: none;
+    position: absolute; /*el figure (padre) le dara las coordenadas para su posicion*/
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    padding: 10px;
+    font-family: $popup;
+    font-size: 1em;
+    color: $colorblanquito;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.080em; /*para que resalte a pesar del fondo clarito*/
+}
+
 .modal { /*esto es para que al clickear en la galeria la imagen se vea mas grande*/
     width: 100%;
     min-height: 100vh;
