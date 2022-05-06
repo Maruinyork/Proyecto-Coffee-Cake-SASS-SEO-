@@ -365,7 +365,7 @@ header {
 /*-----------------Estilos del Banner-------------------*/
 .banner {
   margin-top: -188px;
-  background-color: #644531;
+  background-color: #000;
   position: relative;
   /*para que se muestre despues del menu de navegacion*/
   z-index: -1000;
