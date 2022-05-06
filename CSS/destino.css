@@ -976,7 +976,7 @@ header {
   box-shadow: 5px 5px 5px #D2B48C;
 }
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(2);
   transition: all 1s ease;
 }
 .card-image {
