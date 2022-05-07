@@ -18,7 +18,7 @@
     position: sticky;
     box-shadow: 5px 5px 5px $hover;
     &:hover{
-        transform: scale(1.09);
+        transform: scale(1.10);
         transition: all 1s ease;
     }
     &-image{
@@ -65,7 +65,7 @@
     border: 1px solid $colorcafe;
     column-gap: 1em;
     text-align: justify;
-    margin: 40px;
+    margin: 45px;
     background-image: linear-gradient(to bottom,#F6F7DD, #DECFAC, #B5926D); /*aplicacion de gradientes*/
 }
 
@@ -79,7 +79,7 @@
     font-family: $popup;
     margin-bottom: 10px;
     padding: 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .about-h3 {
@@ -120,10 +120,11 @@
 
     .about-h2 {
         font-size: 2em;
+        margin-bottom: -15px;
     }
     
     .about-p {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     
     .about-h3 {
@@ -136,6 +137,31 @@
 
     .card{
         margin-bottom: 40px;
+    }
+
+    .column-drop-css {   
+        margin-left: 70px;
+        margin-right: 70px;  
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .column-drop-css {   
+        margin-left: 100px;
+        margin-right: 100px;  
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .column-drop-css {   
+        margin-left: 130px;
+        margin-right: 130px;  
+    }
+}
+@media screen and (min-width:2000px) {
+    .column-drop-css {   
+        margin-left: 200px;
+        margin-right: 200px;  
     }
 }
 
