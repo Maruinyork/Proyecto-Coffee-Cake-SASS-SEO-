@@ -344,15 +344,15 @@ header {
     background-image: url("../img/slider1-min.jpg");
   }
   25% {
-    background-image: url("../img/slider1-min.jpg");
-  }
-  26% {
-    background-image: url("../img/slider1-min.jpg");
-  }
-  50% {
     background-image: url("../img/slider2-min.jpg");
   }
-  51% {
+  26% {
+    background-image: url("../img/slider2-min.jpg");
+  }
+  27% {
+    background-image: url("../img/slider2-min.jpg");
+  }
+  28% {
     background-image: url("../img/slider2-min.jpg");
   }
   55% {
