@@ -358,14 +358,17 @@ header {
   55% {
     background-image: url("../img/slider2-min.jpg");
   }
-  56% {
+  75% {
     background-image: url("../img/slider2-min.jpg");
   }
+  76% {
+    background-image: url("../img/slider1-min.jpg");
+  }
   90% {
-    background-image: url("../img/slider3-min.jpg");
+    background-image: url("../img/slider1-min.jpg");
   }
   100% {
-    background-image: url("../img/slider3-min.jpg");
+    background-image: url("../img/slider1-min.jpg");
   }
 }
 /*-----------------Estilos del Banner-------------------*/
