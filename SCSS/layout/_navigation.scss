@@ -197,6 +197,7 @@ header{
     display: block;
     padding: 15px;
     color: #FFF;
+    font-weight: bold;
     text-decoration: none;
     &:hover {  /* la clase menu__link pertenece a los enlaces "a href"*/ 
         background: $hover;
