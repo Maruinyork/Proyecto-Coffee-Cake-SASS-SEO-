@@ -2,7 +2,7 @@
 
 .bannerC {
     margin-top: -188px;
-    background-color: $colorcafe;
+    background-color: rgb(255, 210, 150);
     position: relative; /*para que se muestre despues del menu de navegacion*/
     z-index: -1000; /* uso de --Z-- que se vea la direccion y el phone que quedan debajo sino*/
     border-top: 2px outset #ddd;
